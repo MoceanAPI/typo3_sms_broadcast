@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-11-27T17:38:32Z"
+        product-name="mocean_api_broadcast">
+        <header/>
+        <body>
+            <trans-unit id="extension.title">
+                <source>SMS Transaction History</source>
+            </trans-unit>
+            <trans-unit id="tx_moceanapibroadcast_domain_model_history">
+                <source>Transaction History</source>
+            </trans-unit>
+            <trans-unit id="tx_moceanapibroadcast_domain_model_history.sender">
+                <source>Sender</source>
+            </trans-unit>
+            <trans-unit id="tx_moceanapibroadcast_domain_model_history.datetime">
+                <source>Datetime</source>
+            </trans-unit>
+            <trans-unit id="tx_moceanapibroadcast_domain_model_history.recipient">
+                <source>Recipient</source>
+            </trans-unit>
+            <trans-unit id="tx_moceanapibroadcast_domain_model_history.message">
+                <source>Message</source>
+            </trans-unit>
+            <trans-unit id="tx_moceanapibroadcast_domain_model_history.response">
+                <source>Response</source>
+            </trans-unit>
+            <trans-unit id="tx_moceanapibroadcast_domain_model_history.status">
+                <source>Status</source>
+            </trans-unit>
+            <trans-unit id="tx_moceanapibroadcast_domain_model_history.sms_log">
+                <source>SMS Log</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

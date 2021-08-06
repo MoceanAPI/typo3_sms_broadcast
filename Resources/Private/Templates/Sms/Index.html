@@ -1,0 +1,33 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+    <h1>SMS Broadcast</h1>
+    <p><b>Credit Balance:</b> {creditBalance}</p>
+    <formvh:render factoryClass="Mocean\MoceanApiBroadcast\Domain\Factory\SmsFormFactory" />
+
+    <script type="text/javascript">
+        function showBySelect() {
+            var selected = document.getElementById("smsForm-recipient").value;
+
+            if (selected == "4") {
+                document.getElementById("smsForm-specificPhone").style.display = "block";
+                document.getElementById("smsForm-specificUsers").style.display = "none";
+                document.getElementById("smsForm-specificGroup").style.display = "none";
+            }
+            else if (selected == "3") {
+                document.getElementById("smsForm-specificGroup").style.display = "block";
+                document.getElementById("smsForm-specificUsers").style.display = "none";
+                document.getElementById("smsForm-specificPhone").style.display = "none";
+            }
+            else if (selected == "2") {
+                document.getElementById("smsForm-specificUsers").style.display = "block";
+                document.getElementById("smsForm-specificPhone").style.display = "none";
+                document.getElementById("smsForm-specificGroup").style.display = "none";
+            }
+            else {
+                document.getElementById("smsForm-specificUsers").style.display = "none";
+                document.getElementById("smsForm-specificPhone").style.display = "none";
+                document.getElementById("smsForm-specificGroup").style.display = "none";
+            }
+        }
+    </script>
+</html>
+

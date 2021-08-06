@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="'LLL:EXT:mocean_api_broadcast/Resources/Private/Language/locallang.xlf" date="2020-11-27T17:38:32Z" product-name="mocean_api_broadcast">
+        <header/>
+        <body>
+           <trans-unit id="mlang_labels_tablabel" resname="mlang_labels_tablabel">
+				<source>Send bulk SMS</source>
+			</trans-unit>
+			<trans-unit id="mlang_tabs_tab" resname="mlang_tabs_tab">
+				<source>MoceanAPI Broadcast</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

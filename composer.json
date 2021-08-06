@@ -1,0 +1,36 @@
+{
+    "name": "moceanapi/mocean-api-broadcast",
+    "authors": [
+        {
+            "name": "Mocean API",
+            "role": "Developer",
+            "email": "plugin@moceanapi.com",
+            "homepage": "https://www.mocean.com.my/"
+        }
+    ]
+    ,
+    "keywords": [
+      "typo3",
+      "sms",
+      "broadcast"
+    ],
+    "support": {
+        "issues": "https://moceanapi.com/support/"
+    },
+    "type": "typo3-cms-extension",
+    "description": "MoceanAPI Broadcast module allows sending of text messages in bulk to frontend users",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Mocean\\MoceanApiBroadcast\\": "Classes/"
+        }
+    },
+    "require": {
+        "typo3/cms-core": "^10.4"
+    },
+	"extra": {
+        "typo3/cms": {
+            "extension-key": "mocean_api_broadcast"
+        }
+    }
+}
